@@ -20,5 +20,8 @@ class GuessController < ApplicationController
   end
 end
 
+Deck.find
+
+Guess.find_by(deck_id: params[:deck_id], )
 
 
